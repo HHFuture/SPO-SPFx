@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "g-auth-test-client-side-solution",
+    "id": "fc066d40-7ad6-4628-8fbe-240818b766f5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "GAuth-Test description"
+      },
+      "longDescription": {
+        "default": "GAuth-Test description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "g-auth-test Feature",
+        "description": "The feature that activates elements of the g-auth-test solution.",
+        "id": "9ec5d1c9-e08a-435e-aa0e-b172ef002e7d",
+        "version": "1.0.0.0"
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Read"
+      }
+    ]   
+  },
+  "paths": {
+    "zippedPackage": "solution/g-auth-test.sppkg"
+  }
+}

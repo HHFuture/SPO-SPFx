@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "g-auth-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gAuthTest/GAuthTestWebPart.js",
+          "manifest": "./src/webparts/gAuthTest/GAuthTestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GAuthTestWebPartStrings": "lib/webparts/gAuthTest/loc/{locale}.js"
+  }
+}

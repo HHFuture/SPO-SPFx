@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://class1121.sharepoint.com/sites/DeveloperSite/SitePages/Test-List-view.aspx",
+      "customActions": {
+        "3f951bc3-4a7e-4b1a-ba96-9babe8bfb670": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "lstCommands": {
+      "pageUrl": "https://class1121.sharepoint.com/sites/DeveloperSite/SitePages/Test-List-view.aspx",
+      "customActions": {
+        "3f951bc3-4a7e-4b1a-ba96-9babe8bfb670": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

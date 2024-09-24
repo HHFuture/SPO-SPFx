@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "token-access-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tokenAccessTest/TokenAccessTestWebPart.js",
+          "manifest": "./src/webparts/tokenAccessTest/TokenAccessTestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TokenAccessTestWebPartStrings": "lib/webparts/tokenAccessTest/loc/{locale}.js"
+  }
+}

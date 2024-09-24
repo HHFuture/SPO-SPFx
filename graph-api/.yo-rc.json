@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "g-auth-test",
+    "libraryId": "fc066d40-7ad6-4628-8fbe-240818b766f5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "GAuth-Test",
+    "solutionShortDescription": "GAuth-Test description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
