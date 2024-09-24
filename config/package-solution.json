@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "provider-sp-fx-client-side-solution",
+    "id": "53d15724-88b5-40f1-a1a5-3bbf8957948b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ProviderSPFx description"
+      },
+      "longDescription": {
+        "default": "ProviderSPFx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "provider-sp-fx Feature",
+        "description": "The feature that activates elements of the provider-sp-fx solution.",
+        "id": "43601679-89d2-4571-ae55-a976cd580c37",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/provider-sp-fx.sppkg"
+  }
+}
